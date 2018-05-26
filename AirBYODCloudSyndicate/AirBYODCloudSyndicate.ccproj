@@ -57,10 +57,14 @@
   <ItemGroup>
     <Folder Include="CloudSyndicateWebContent\" />
     <Folder Include="CloudSyndicateWorkerContent\" />
+    <Folder Include="Profiles" />
   </ItemGroup>
   <ItemGroup>
     <DiagnosticsConfiguration Include="CloudSyndicateWebContent\diagnostics.wadcfgx" />
     <DiagnosticsConfiguration Include="CloudSyndicateWorkerContent\diagnostics.wadcfgx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishProfile Include="Profiles\CloudSyndicateProduction.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
