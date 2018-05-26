@@ -20,7 +20,7 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cloudsyndicate;AccountKey=$(_cloudsyndicate.key_)" />
       <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="CloudSyndicateDbConnectionString" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=CloudSyndicate; Integrated Security=True; MultipleActiveResultSets=True;" />
+      <Setting name="CloudSyndicateDbConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cloudsyndicate;AccountKey=J3APB3EkJoXOLD+ov5eTt/5iPM+O5nfKZCrGaJQeoBZ9XXJlQZ0Yh3CDNVpsTp7j8/oqnakEUtv8lv5YB6goUQ==" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="RZilla" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCECWhSnQgbc6VSPJbh+z0HXIwDQYJKoZIhvcNAQEBBQAEggEAINS/GgTfV67VSFelF9/UydZJ3+jKzJE+L75brGBeIUsjhkw8G1JHSDd0U6gVAUXJeIUUSJW1fPUs1cTkMUOi8Y+xH7SN9lNckmZDDGL+1rtEGahlK/bCcNvAYanE6IIQ3CCUH2hiy3onZP2FniSQT6nvcT6oPwzG6zjIZz0zOjHRDkz7zWUtUUvsaVRSZSKA0BiKgOvqzaxA5O7ZlaH+sp6aFV1SoHqEnneGrWyqFEcKx6eTLoiqoIcmLgGufjQ1kw5YLkMJ3iGnz7LTHmci0O6v9wTemgjkjkcfXbOr8OEynzz+aQqcnygA9X3jxbUCRyWZML8QCj3reHc8pQk7CjAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECKRfBt+YVOH8gBAupIr3Kll48G3blLL1cGWW" />
